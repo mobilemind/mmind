@@ -1,0 +1,26 @@
+version 1.0.0; July 23, 2008; Tom King
+version 1.0.1; October 29, 2008; Tom King; fixed typos, improved formatting
+version 1.0.2; November 28, 2008; Tom King; tighter wording, title/bookmark name updates, adds AdMob http://www.admob.com
+version 1.1.0; December 14, 2009; Tom King; improve generated bookmarklet (quicker exit from inner loop, paste text at front), PNGS now cacheable
+version 1.2.0; December 18, 2009; Tom King; change delivery page to HTML 5, refactor & minify script tags, update load handler, reload URL no longer hardcoded
+version 1.3.0; December 18, 2009; Tom King; HTML & CSS improvements to validate better, display generated Pastelet in textarea
+version 1.4.0; December 19, 2009; Tom King; HTML 5 cache manifest, added apple-mobile-web-app meta tags, re-brand as 'Pastelet' (vs iPastelet)
+version 1.4.1; December 21, 2009; Tom King; refactor to share code between Mobile Safari & Firefox/IE/Safari desktop pages, removed cache manifest
+version 1.4.2; December 22, 2009; Tom King; center button and (orange)crush style it, CSS improved, PayPal button centered
+version 1.4.3; December 28, 2009; Tom King; crop 'Save' graphic, tighten wording, add link to Donation area & back to top
+version 1.4.4; December 28, 2009; Tom King; use Firebug for strict check of javascript, do Total Validator HTML & accessibility check, Mobile Safari console check
+version 1.4.5; December 28, 2009; Tom King; remove favicon references, restore manifest [also, Page Speed Analysis optimizations of mobilemind.net config]
+version 1.5.0; December 28, 2009; Tom King; accessibility improvements, released to web as "http://mobilemind.net/___"
+version 1.5.1; December 28, 2009; Tom King; minor tweak to generated bookmarklet- i & j are declared, link published version to minified CSS & js, updated manifest
+version 1.6.0; December 29, 2009; Tom King; major overhaul to generated bookmarklet- now anon f(n) & tighter, match regex changed, script comment fixed, republished [bmmark ~70bytes smaller]
+version 1.6.1; December 30, 2009; Tom King; change loadPgWithPastelet() to update text area before reload (allows offline use), add touch-icon
+version 2.0.0; December 30, 2009; Tom King; loadPgWithPastelet() now uses document.getElementsByTagName (simplifies checks & works w/Google), match regex updated, page show version, no longer mentions issue w/Google pages
+version 2.0.1; December 30, 2009; Tom King; checked w/Firebug and Total Validator and fixed, republished to web [bookmarklets now ~70bytes smaller vs. v1.6x]
+version 2.0.2; January 1, 2010; Tom King; removed anonymous f(n) from bookmarklet [9bytes shorter], more comments, IE compatibility, pastex.js optimizations (& inlined w/ ___ HTML)
+version 2.0.3; January 1, 2010; Tom King; fixed missing character in pastelet concatenation, added lang="en" to html
+version 2.0.4; January 3, 2010; Tom King; now handles iPhone keyboard 'Go'/submit (w/awkward 2nd page load though)
+version 2.0.5; January 3, 2010; Tom King; added <noscript> tag
+version 2.0.6; January 4, 2010; Tom King; handles submit/button click without re-submitting
+version 2.0.7; January 4, 2010; Tom King; tighter minified version (forks '___' file HTML & JavaScript)
+version 2.1.0; January 5, 2010; Tom King; uses HTML 5 input types/attributes, improve bookmarklet, avoid unneeded reloads, try/catch w/error alert, no 'urchin() undefined' error
+Copyright (c) 2008-2010 Tom King. All rights reserved.

@@ -1,0 +1,45 @@
+# .gitignore #
+
+# Editors #
+###########
+.editorconfig
+*.sublime-project
+*.sublime-workspace
+
+# temp files #
+##############
+*.bak
+.*.bak
+*.tmp
+tmp/*
+
+# OS generated files #
+######################
+.DS_Store
+Thumbs.db
+
+# NODEJS / GRUNT #
+##################
+node_modules/*
+lib-cov
+*.seed
+*.log
+*.dat
+*.out
+*.pid
+pids
+logs
+results
+# grunt-html-validation
+validation-status.json
+
+# SUBLIME EDITOR #
+##################
+*.sublime-project
+*.sublime-workspace
+
+# sensitive files #
+###################
+.curlrc
+.ftppass
+.netrc

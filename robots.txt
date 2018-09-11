@@ -1,9 +1,4 @@
 User-agent: *
 Crawl-delay: 1
-Disallow: /cgi-bin/
 Disallow: /images/
 Disallow: /img/
-Disallow: /lab/
-Disallow: /QR/
-Disallow: /tk/
-Sitemap: http://mmind.me/sitemap.xml.gz

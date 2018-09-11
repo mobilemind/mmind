@@ -15,33 +15,35 @@
 
 	<link rel="shortcut icon" href="pastelet-favicon.ico" title="Mailcan" type="image/x-icon">
 	<link rel="icon" href="pastelet-favicon.ico" title="Mailcan" type="image/x-icon">
-	<link rel="stylesheet" href="ipn2.css" type="text/css">
+	<!--
+		<link rel="stylesheet" href="ipn2.css" type="text/css">
+	-->
 	<script><!--
 	// Mailcan Copyright (c) 2010 Tom King. All rights reserved. -->
 	</script>
-<title>Mailcan</title>
+<title>Mailcannery</title>
 
 </head>
 
 <body>
 <div id="container">
-<h1>Mailcan</h1>
+<h1>Mailcannery</h1>
 <form id= "mailcan" name="mailcan" class="grp" method="post" action="https://mmind.me/iphone/mailcan.html">
 	<fieldset id="addr">
 		<legend>Address</legend>
-		<label>To:&nbsp;&nbsp;<input id="to" name="to" type="text" size="32" maxlength="256"></label>
-		<label><br>cc:&nbsp;&nbsp;<input id="cc" name="cc" type="text" size="32" maxlength="256"></label>
-		<label><br>bcc:&nbsp;&nbsp;&nbsp;<input id="bcc" type="bcc" size="32" maxlength="256"></label>
+		<label>To:&nbsp;&nbsp;<input id="to" name="to" type="email" size="32" maxlength="256" autofocus placeholder="user@domain.tld"></label>
+		<label><br>cc:&nbsp;&nbsp;<input id="cc" name="cc" type="email" size="32" maxlength="256"></label>
+		<label><br>bcc:&nbsp;&nbsp;&nbsp;<input id="bcc" type="email" size="32" maxlength="256"></label>
 	</fieldset>
 	<fieldset id="subj">
 		<legend><label for="subject">Subject</label></legend>
-		<input id="subject" name="subject" type="text" size="32" maxlength="256"></label>
+		<input id="subject" name="subject" type="text" size="32" maxlength="256" placeholder="subject line"></label>
 	</fieldset>
 	<fieldset id="bod">
 		<legend><label for="body">Body</label></legend>
-		<textarea id="body" type="textarea" cols="40" rows="9" wrap="soft"></textarea>
+		<textarea id="body" type="textarea" cols="40" rows="9" wrap="soft" placeholder="message here"></textarea>
 	</fieldset>
-	<label><br>&nbsp;<input type="submit" button="Can this Email" tabindex="3" class="crushbtn" style="margin:2px 0px 4px 33px;"></label>
+	<label>&nbsp;<br><input type="submit" value="Can this Email" tabindex="3" style="margin:2px 0px 4px 33px;"></label>
 </form>
 </div>
 </body>
